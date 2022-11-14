@@ -40,6 +40,8 @@ body {
     font-family: var(--body-font-family);    
     position: relative;
     padding-top: 94px;
+    margin: 0px !important;
+    padding: 0px !important;
 }
 
 /*---------------------------------------
@@ -252,6 +254,29 @@ strong {
 }
 
 /*---------------------------------------
+  slider             
+-----------------------------------------*/
+.slider-banner{
+margin: 0px !important;
+padding: 0px !important;
+}
+
+.carousel-section{
+  margin: 0px !important;
+  padding: 0px !important;
+  position: relative;
+}
+.carousel-inner img{
+  height: 65vh  !important;
+}
+
+.popup-banner{
+position: absolute;
+top: 220px !important;
+left: 12%;
+z-index: 10 !important;
+}
+/*---------------------------------------
   HERO              
 -----------------------------------------*/
 .hero {  
@@ -261,7 +286,10 @@ strong {
 .hero .container {
   position: relative;
   overflow: hidden;
-  height: 580px;
+  height: 50vh !important;
+  top: 0;
+  z-index: 1;
+  margin-top: -150px !important;
 }
 
 .heroText {
@@ -628,6 +656,12 @@ strong {
   border-radius: 100px;
   width: 70px !important;
   height: 70px !important;
+}
+
+
+
+.carousel-item img{
+  width: 100% !important;
 }
 
 .reviews-carousel .owl-item {
