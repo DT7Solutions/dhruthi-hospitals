@@ -949,13 +949,29 @@ z-index: 10 !important;
   }
 }
   .card-container{
-  background: url("../images/gallery/card-desgin.png"), #1cb1ec!important;
+  background: url("../images/gallery/card-desgin.png"),linear-gradient(#006d95 40%,#ffff)!important;
   background-blend-mode: darken;
   background-size: cover;
- 
-  width:400px;
+  opacity: .81;
+  width:500px;
   height:450px;
-
- } 
-
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  align-items: center;
+  padding: 10px;
   
+ } 
+ 
+.hospitals-cards{
+  background: url("../images/gallery/"), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7));
+  background-blend-mode: darken;
+  background-size: cover;
+  
+  
+}
+  .text-card{
+    background-color: #006d95;
+    border-radius:10px;
+    padding: 10px;
+  }
